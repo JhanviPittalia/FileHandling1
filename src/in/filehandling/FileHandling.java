@@ -116,6 +116,7 @@ public class FileHandling {
             while((i=bi.read())!=-1)
             {
                 System.out.println((char)i);
+                System.out.println("first branch");
             }
             bi.close();
         }
